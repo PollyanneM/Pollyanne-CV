@@ -238,6 +238,14 @@ p{
     }
 }
 
+@media screen and (max-width: 500px){
+    .sobre p{
+    width: 150%;
+    text-indent: 2em;
+    text-align: justify;
+    }
+}
+
 .experiencias .box{
     display: flex;
     flex-direction: row;
@@ -267,9 +275,25 @@ p{
     }
 }
 
+@media screen and (max-width: 500px){
+    .experiencias .box{
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    text-align: justify;
+    }
+}
+
 @media screen and (max-width: 900px){
     .habilidades .box{
     width: 120%;
+    text-align: justify;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .habilidades .box{
+    width: 150%;
     text-align: justify;
     }
 }
