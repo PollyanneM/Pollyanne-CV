@@ -230,9 +230,9 @@ p{
     text-align: justify;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
     .sobre p{
-    width: 150%;
+    width: 120%;
     text-indent: 2em;
     text-align: justify;
     }
@@ -258,16 +258,18 @@ p{
     text-align: justify;
 }
 
-@media screen and (max-width: 600px){
-    .experiencias .box .texto p{
-    width: 220%;
+@media screen and (max-width: 900px){
+    .experiencias .box{
+    display: flex;
+    flex-direction: column;
+    width: 120%;
     text-align: justify;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
     .habilidades .box{
-    width: 150%;
+    width: 120%;
     text-align: justify;
     }
 }
