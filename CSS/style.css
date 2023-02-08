@@ -228,17 +228,9 @@ p{
     text-align: justify;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
     .sobre p{
-    width: 100%;
-    text-indent: 2em;
-    text-align: justify;
-    }
-}
-
-@media screen and (max-width: 500px){
-    .sobre p{
-    width: 120%;
+    width: 150%;
     text-indent: 2em;
     text-align: justify;
     }
@@ -264,34 +256,25 @@ p{
     text-align: justify;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
     .experiencias .box{
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: column;    
+    width: 200%;
     text-align: justify;
     }
 }
 
-@media screen and (max-width: 500px){
-    .experiencias .box{
-    display: flex;
-    flex-direction: column;
-    width: 120%;
+@media screen and (max-width: 600px){
+    .experiencias .box .texto p{
+    width: 75%;
     text-align: justify;
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
     .habilidades .box{
-    width: 100%;
-    text-align: justify;
-    }
-}
-
-@media screen and (max-width: 500px){
-    .habilidades .box{
-    width: 120%;
+    width: 150%;
     text-align: justify;
     }
 }
