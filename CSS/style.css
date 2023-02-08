@@ -260,14 +260,14 @@ p{
     .experiencias .box{
     display: flex;
     flex-direction: column;    
-    width: 200%;
+    width: 190%;
     text-align: justify;
     }
 }
 
 @media screen and (max-width: 600px){
     .experiencias .box .texto p{
-    width: 90%;
+    width: 95%;
     text-align: justify;
     }
 }
