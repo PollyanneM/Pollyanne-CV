@@ -230,7 +230,7 @@ p{
 
 @media screen and (max-width: 600px){
     .sobre p{
-    width: 150%;
+    width: 180%;
     text-indent: 2em;
     text-align: justify;
     }
@@ -267,14 +267,14 @@ p{
 
 @media screen and (max-width: 600px){
     .experiencias .box .texto p{
-    width: 75%;
+    width: 90%;
     text-align: justify;
     }
 }
 
 @media screen and (max-width: 600px){
     .habilidades .box{
-    width: 150%;
+    width: 180%;
     text-align: justify;
     }
 }
